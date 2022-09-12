@@ -7,7 +7,7 @@
 FROM ubuntu:latest
 
 # Name of maintainer
-LABEL sckn
+LABEL maintainer=sckn
 
 # Add the bash script
 ADD install.sh /
